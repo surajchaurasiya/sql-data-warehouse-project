@@ -56,9 +56,9 @@ drop table bronze.erp_cust_az12;
 Go
 
 Create Table bronze.erp_cust_az12(
-cid	nvarchar(50),
-bdate date,
-gen nvarchar(50)
+	cid	nvarchar(50),
+	bdate date,
+	gen nvarchar(50)
 )
 Go
 
@@ -67,8 +67,8 @@ drop table bronze.erp_loc_a101;
 Go
 
 Create Table bronze.erp_loc_a101(
-cid nvarchar(50),
-cntry nvarchar(50)
+	cid nvarchar(50),
+	cntry nvarchar(50)
 );
 Go
 
@@ -77,9 +77,9 @@ drop table bronze.erp_px_cat_g1v2;
 Go
 
 Create Table bronze.erp_px_cat_g1v2(
-id nvarchar(50),
-cat	nvarchar(50),
-subcat nvarchar(50),
-maintenance nvarchar(50)
+	id nvarchar(50),
+	cat	nvarchar(50),
+	subcat nvarchar(50),
+	maintenance nvarchar(50)
 );
 
