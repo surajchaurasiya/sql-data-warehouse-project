@@ -1,3 +1,11 @@
+/*
+===================================================================
+DML script: Truncate & Load the data to silver table from bronze table.
+This stored procedure loads data into silver schema from bronze schema.
+It truncates the table before loading data from bronze layer.
+===================================================================
+*/
+
 Create or Alter procedure silver.load_silver as 
 Begin
 	Declare @start_time datetime, @end_time datetime;
